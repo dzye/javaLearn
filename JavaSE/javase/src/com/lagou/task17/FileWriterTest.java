@@ -7,7 +7,7 @@ public class FileWriterTest {
     public static void main(String[] args) {
         FileWriter fw = null;
         try {
-            fw = new FileWriter("D:/a.txt");
+            fw = new FileWriter("D:/a.txt",true);
             fw.write('b');
 
             char[] cArr = new char[]{'a','b','c','d','e','f'};
